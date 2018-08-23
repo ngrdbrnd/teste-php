@@ -11,6 +11,5 @@ include 'conexao.php';
 
   echo"<script>alert('Produto editado com sucesso !')</script>
   <span class='bt-editor'><a href=\"painel.php\">Voltar</a></span>";
-  /*se der certo, aparecer esta msg*/
-//  UPDATE - atualiza a tabela 'produtos' SET - substitui o conteúdo WHERE id - define que os dados atualizados , são referentes ao id armazenado na $id.
+  
 ?>
