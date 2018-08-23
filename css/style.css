@@ -1,0 +1,109 @@
+@@ -0,0 +1,108 @@
+/* CORES
+  SteelBlue
+      RGB - 70 130 180
+      html - #4682B4
+
+  SkyBlue
+      RGB - 135 206 235
+      html - #87CEEB
+
+  PaleGreen
+     RGB - 152 251 152
+     html - #98FB98
+
+  LightSeaGreen
+    RGB - 32 178 170
+    html - #20B2AA
+  */
+body{
+    margin: 5%;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-family: 'Oxygen', sans-serif;
+    background-color:#E0FFFF;
+}
+.ft-family{font-family: 'Marck Script', cursive;}
+.ft-white{color:#fff;}
+.bg-blue{background-color:#4682B4; }
+.bg-blue-rgba{background-color: rgba(70,130,180,0.2);}
+.bg-blue2{background-color:#87CEEB;}
+.bg-blue2-rgba{background-color:rgba(135,206,235,0.5);}
+
+/*FORMULARIO - Cadastrar*/
+.h1{margin-left:34%; font-size:2.5em; }
+.newsletter form{margin-top:2%;}
+.newsletter input{/*Fundo formulário*/
+  width:40%;
+  height:15%;
+  border:3px solid #4682B4;/*SteelBlue*/
+  border-radius:10px;
+  padding:2%;
+  margin-top:2%;
+  margin-bottom:3%;
+  margin-left: 28%;
+  font-family:'Oxygen', sans-serif;
+  font-size:1em;
+}
+.newsletter input:hover{
+  background-color: rgba(135,206,235,0.2);/*SkyBlue*/
+  border:3px solid #87CEEB;/*SkyBlue*/
+  font-size:1.5em;
+}
+.button{/*cadastrar*/
+  width:20%;
+  height:15%;
+  border:3px solid #4682B4;/*SteelBlue*/
+  border-radius:10px;
+  cursor:pointer;
+  margin-bottom:2%;
+  margin-left:38%;
+  font-size:1.5em;
+}
+.button:hover{
+  background-color:#fff;
+  color:#4682B4;
+  border-color:rgba(70,130,180,0.5);/*SteelBlue*/
+  font-size:2em;
+}
+/*FORMULARIO - Editar Cadastro*/
+.editor{
+  padding:1%;
+  margin-top:2%;
+  margin-bottom:3%;
+  margin-left:28%;
+}
+.editor input{
+  width:40%;
+  height:15%;
+  border:3px solid #20B2AA;
+  border-radius:5px;
+  padding:2%;
+  margin-bottom:1%;
+  margin-left: 5%;
+  margin-top:1%;
+  font-family:'Oxygen', sans-serif;
+  font-size:1em;
+  background-color:rgba(32,178,170,0.2);
+}
+.editor input:hover{
+  border:3px solid #98FB98;/*PaleGreen*/
+  background-color:rgba(152,251,152,0.2);
+  font-size:1.5em;
+}
+.ed-h1{font-size:2em; }
+.bt-editor a{
+  width:100%;
+  height:20%;
+  border-radius:5px;
+  font-size:1.5em;
+  color:#4682B4;
+  margin-left:45%;
+}
+.bt-editor a:hover{
+color:#fff;
+background-color:#4682B4;
+}
