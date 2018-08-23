@@ -3,8 +3,8 @@
   include'conexao.php';
   $id = $_POST['id'];
 
-  $query ="DELETE FROM produtos WHERE id='$id'";// DELETE FROM produtos - deleta o registro da tabela produtos.
-  mysqli_query($conexao,$query);// WHERE id = '$id' - Define quais dados serão removidos , de acordo com o id armazenado na variável $id.
+  $query ="DELETE FROM produtos WHERE id='$id'";
+  mysqli_query($conexao,$query);
 
   echo"<script>alert('Produto removido com sucesso !')</script>
   <span class='bt-editor'><a href=\"painel.php\">Voltar</a></span>";
