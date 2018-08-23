@@ -19,11 +19,11 @@
   <h1 class="ft-family ed-h1"> Editar ou Remover Produtos Cadastrados : </h1>
   <?php
     include 'conexao.php';
-    $sql="SELECT * FROM produtos";// Seleciona todas as linhas da tabela
-    $resultado=$conexao->query($sql);// Consulta e armazena o resultado
+    $sql="SELECT * FROM produtos";
+    $resultado=$conexao->query($sql);
 
-    while($row=mysqli_fetch_assoc($resultado)){// armazena cada consulta e verfica que tem resultados  e   row: armazena valores e mostra na tabela
-      $id=$row['id'];// Armazena os dados encontrados na consulta.
+    while($row=mysqli_fetch_assoc($resultado)){
+      $id=$row['id'];
       $nome=$row['nome'];
       $descricao=$row['descricao'];
       $preco=$row['preco'];
